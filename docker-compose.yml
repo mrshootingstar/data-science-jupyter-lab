@@ -1,0 +1,16 @@
+version: '3.3'
+
+services:
+  datascience:
+    build: .
+    image: smirghor/jupyter-lab-datascience
+    container_name: "python-datascience"
+    volumes:
+      - ./:/root/app
+    ports:
+      - "8888:8888"
+    restart: always
+    working_dir: /root/app
+    # network_mode: "host"
+    command: >
+      bash -c "jupyter lab --allow-root  --no-browser --ip=0.0.0.0"
