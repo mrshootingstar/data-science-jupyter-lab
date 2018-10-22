@@ -4,6 +4,7 @@ EXPOSE 8888
 
 RUN pip install altair \
 bokeh \
+beautifulsoup \
 catboost \
 conda \
 cryptography \
@@ -54,3 +55,5 @@ tensorflow \
 tornado \
 vega-datasets \
 xgboost
+
+
