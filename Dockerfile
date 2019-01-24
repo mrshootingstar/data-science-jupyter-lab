@@ -5,6 +5,7 @@ COPY ./requirements.txt /tmp/requirements/
 
 RUN apt-get update \
     && apt-get install -y graphviz \
+    hdf5-tools \
     && rm -rf /var/lib/apt/lists/*
 
 RUN pip install -U pip \

@@ -5,6 +5,9 @@ catboost
 conda 
 cryptography 
 cython 
+dask
+dask-ml
+datascience
 decorator 
 defusedxml 
 dill 
@@ -29,7 +32,8 @@ jupyterlab-server
 keras 
 lightgbm 
 matplotlib 
-mxnet>=1.3.0
+memory_profiler
+mxnet
 networkx 
 nltk 
 notebook 
@@ -42,11 +46,13 @@ Pillow
 line_profiler 
 prometheus-client 
 Pygments 
+pytables
 pytest 
 pytest-benchmark 
 pytz 
 requests 
 rx 
+s3fs
 scikit-image 
 scikit-learn 
 scipy 
@@ -63,3 +69,7 @@ tornado
 vega-datasets 
 wordcloud 
 xgboost
+
+
+
+
